@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var b float64
+	var h float64
+	var a float64
+	fmt.Print("Enter Base :\n")
+	fmt.Scan(&b)
+	fmt.Print("Enter Height :\n")
+	fmt.Scan(&h)
+	a = 0.5 * b * h
+	fmt.Print("The Area Will Be :", a)
+}
